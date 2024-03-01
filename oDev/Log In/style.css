@@ -1,0 +1,71 @@
+body {
+    background-color: #E5E5E5;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.main {
+    width: 554px;
+    height: 864px;
+    border-radius: 12px;
+    padding: 72px;
+    box-sizing: border-box;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.title {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 32px;
+    color: #171645;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.borders {
+    width: 410px;
+    height: 75px;
+    border-radius: 4px;
+    padding: 24px;
+    box-sizing: border-box;
+    background-color: #F8F8FB;
+    border: 1px solid #DADAF2;
+    margin-top: 12px;
+    color: #171645;
+}
+
+.log-in {
+    width: 410px;
+    height: 75px;
+    border-radius: 4px;
+    padding: 24px;
+    box-sizing: border-box;
+    background-color: #171645;
+    color: white;
+    margin-top: 12px;
+    text-align: center;
+}
+
+.or {
+    color: #171645;
+    text-align: center;
+    margin: 32px;
+}
+
+.acc{
+    display: flex;
+    justify-content: center;
+}
+
+.acc span{
+    margin-left: 10px;
+}
+.others{
+    margin-top: 32px;
+    color: #171645;
+    text-align: center;
+}

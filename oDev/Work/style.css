@@ -1,0 +1,111 @@
+body {
+    background-color: #E5E5E5;
+}
+
+.back-circle {
+    width: 480px;
+    height: 480px;
+    background-color: #E7EEFC;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+.content {
+    width: 378px;
+    height: 481px;
+    background-color: white;
+    border-radius: 40px;
+    border: #1C1E57 3px solid;
+    position: relative;
+    padding: 56px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.title {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    color: #25297B;
+    margin: 0 0 16px 0;
+}
+
+.info {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    font-size: 16px;
+    color: #25297B;
+    margin: 0 0 59px;
+}
+
+.tick {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    font-size: 18px;
+    color: #25297B;
+}
+
+.tick span {
+    vertical-align: 12px;
+}
+
+.freetime {
+    margin: 16px 0 59px;
+}
+
+.buttons {
+    display: flex;
+}
+
+.done {
+    width: 125px;
+    height: 54px;
+    border-radius: 8px;
+    background-color: #25297B;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+.done span {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.cancel {
+    margin-left: 16px;
+    width: 125px;
+    height: 54px;
+    border-radius: 8px;
+    background-color: #F5F8FF;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+.cancel span {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    font-size: 18px;
+    color: #25297B;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
